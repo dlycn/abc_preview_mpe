@@ -5,6 +5,8 @@
   "activationEvents": ["onLanguage:markdown"],
   "main": "./extension.js",
   "icon": "images/icon.png",
+  "categories": ["Other"],
+  "keywords": ["abc", "music", "notation", "preview"],
   "publisher": "Dingliuyang",
   "contributes": {
     "markdown.markdownItPlugins": true,
