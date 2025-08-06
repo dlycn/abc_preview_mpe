@@ -1,0 +1,21 @@
+{
+  "name": "abc-preview-lite",
+  "version": "0.1.0",
+  "engines": { "vscode": "^1.102.0" },
+  "activationEvents": ["onLanguage:markdown"],
+  "main": "./extension.js",
+  "icon": "images/icon.png",
+  "publisher": "Dingliuyang",
+  "contributes": {
+    "markdown.markdownItPlugins": true,
+    "markdown.previewScripts": [
+      "./media/abcjs-basic.min.js",
+      "./media/render.js"
+    ],
+    "markdown.previewStyles": ["./styles/preview.css"]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dlycn/abc_preview_mpe.git"
+  }
+}

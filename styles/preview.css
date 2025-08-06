@@ -1,0 +1,7 @@
+/* preview.css 精简后 */
+.abc-container { position: relative; }
+.abc-preview { min-height: 20px; }
+.abc-global-error { 
+  position: fixed; 
+  z-index: 10000;
+}
