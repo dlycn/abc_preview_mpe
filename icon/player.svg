@@ -1,0 +1,6 @@
+<!-- player.svg (播放图标) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- 右向三角形表示播放 -->
+  <path d="M35 20 L80 50 L35 80 Z" 
+        fill="currentColor"/>
+</svg>

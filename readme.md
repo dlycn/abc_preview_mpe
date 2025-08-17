@@ -4,6 +4,12 @@
 
 在 Markdown 文件中实时预览 ABC 乐谱
 
+```mermaid
+graph LR
+A[Markdown 文件] --> B[ABC 代码块]
+B --> C[ABC 乐谱预览器]
+C --> D[ABC 乐谱]
+```
 ## 功能特性
 - 🎼 自动渲染 ABC 乐谱代码块
 - ⚡ 实时预览更新
@@ -137,3 +143,4 @@ A,,E,A, z z2|z6|A,,E,A, z z2|E,,E,^G, z z2|[A,,,4A,,4]|]
 渲染结果如下：
 
 ![《致爱丽丝》渲染效果](images/fur_elise.png)
+

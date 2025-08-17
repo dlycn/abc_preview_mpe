@@ -1,7 +1,30 @@
-/* preview.css 精简后 */
-.abc-container { position: relative; }
-.abc-preview { min-height: 20px; }
-.abc-global-error { 
-  position: fixed; 
-  z-index: 10000;
+.abc-preview {
+    position: relative;  /* 为按钮的绝对定位提供参考 */
+    display: inline-block; /* 确保容器大小适应内容 */
+    min-height: 20px; /* 最小高度 */
 }
+.abc-export-button, .abc-play-button {
+position: absolute;
+top: 5px;
+right: 5px;
+cursor: pointer;
+opacity: 0.2;
+transition: opacity 0.3s;
+width: 16px;
+height: 16px;
+z-index: 10;
+}
+.abc-play-button {
+right: 25px;
+}
+.abc-preview:hover .abc-export-button, 
+.abc-preview:hover .abc-play-button {
+opacity: 1;
+}
+.abc-play-button.loading {
+animation: spin 1s linear infinite;
+}
+@keyframes spin {
+100% { transform: rotate(360deg); }
+}
+

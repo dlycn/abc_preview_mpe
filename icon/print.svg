@@ -1,0 +1,25 @@
+<!-- print.svg (打印图标) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- 打印机主体 -->
+  <rect x="15" y="40" width="70" height="40" 
+        fill="none" 
+        stroke="currentColor" 
+        stroke-width="4" 
+        rx="5"/>
+  
+  <!-- 纸张内容 -->
+  <rect x="25" y="50" width="50" height="6" fill="currentColor"/>
+  <rect x="25" y="60" width="50" height="6" fill="currentColor"/>
+  <rect x="25" y="70" width="50" height="6" fill="currentColor"/>
+  
+  <!-- 出纸口 -->
+  <rect x="40" y="15" width="20" height="25" 
+        fill="none" 
+        stroke="currentColor" 
+        stroke-width="4"/>
+  
+  <!-- 纸张 -->
+  <rect x="35" y="30" width="30" height="15" 
+        fill="currentColor" 
+        rx="2"/>
+</svg>

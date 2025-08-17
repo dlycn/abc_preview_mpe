@@ -11,7 +11,7 @@
   "contributes": {
     "markdown.markdownItPlugins": true,
     "markdown.previewScripts": [
-      "./media/abcjs-basic.min.js",
+      "./media/abcjs-basic-min.js",
       "./media/render.js"
     ],
     "markdown.previewStyles": ["./styles/preview.css"]

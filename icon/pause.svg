@@ -1,0 +1,6 @@
+<!-- pause.svg (暂停图标) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- 两个垂直矩形表示暂停 -->
+  <rect x="30" y="20" width="15" height="60" fill="currentColor" rx="3"/>
+  <rect x="55" y="20" width="15" height="60" fill="currentColor" rx="3"/>
+</svg>
